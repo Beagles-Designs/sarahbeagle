@@ -1,6 +1,6 @@
 <?php
 /**
- * The header.
+ * The landing page header.
  *
  * This is the template that displays all of the <head> section and everything up until main.
  *
@@ -17,11 +17,14 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
-	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
-	<?php wp_head(); ?>
+</head>
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  
 </head>
 
 <body <?php body_class(); ?>>
@@ -30,14 +33,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
 
 	<?php get_template_part( 'template-parts/header/site-header' ); ?>
-	
 
 	<div id="content" class="site-content">
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
-
-				<?php
-
-
-
-
