@@ -12,10 +12,12 @@ $wrapper_classes .= has_custom_logo() ? ' has-logo' : '';
 $wrapper_classes .= ( true === get_theme_mod( 'display_title_and_tagline', true ) ) ? ' has-title-and-tagline' : '';
 $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 ?>
+<?php 
+    global $post;
+    $page_slug = $post->post_name; ?> 
+<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?> <?php echo $page_slug; ?>-header" role="banner">
 
-<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?>" role="banner">
-
-	<?php get_template_part( 'template-parts/header/site-branding' ); ?>
+	<a href="<?php echo site_url('/') ?>"><h1 class="b-logo">B</h1></a>
 	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
 
 </header><!-- #masthead -->

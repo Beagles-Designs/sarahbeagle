@@ -26,7 +26,10 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site">
+<?php 
+	global $post;
+	$post_slug = $post->post_name; ?>
+<div id="page" class="site <?php echo $post_slug;?>-header">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
 
 	<?php get_template_part( 'template-parts/header/site-header' ); ?>

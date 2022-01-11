@@ -17,7 +17,7 @@ get_header(); ?>
             <img src="<?php echo get_stylesheet_directory_uri('template_directory'); ?>/assets/img/labyrinth-grey-01.png" />
       </div> 
       <div class="content-wrapper-cover">  
-        <a href="main/index.html">
+        <a href="<?php echo site_url('/home/') ?>">
               <nav class="menu">
                 <div class="menu-lines one"></div>
                 <div class="menu-lines two"></div>

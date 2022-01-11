@@ -186,6 +186,9 @@ p {
   margin: 30px 0 50px 0;
 }
 
+header.front-page-header, footer.front-page-footer {
+  display: none;
+}
 
 
 /*-------------------- Cover Homepage Mobile CSS ----------------------*/ 
@@ -702,7 +705,7 @@ footer div .contact-icons {
     justify-content: space-between;
   }
 
-  #dropdown-options a {
+  #dropdown-options a, .primary-navigation .primary-menu-container > ul > .menu-item > a {
     color: white;
     font-size: 1.25em;
   }
