@@ -13,6 +13,7 @@
  */
 
 get_header(); ?>
+<?php get_template_part('template-parts/header/site-header') ?>
 
     <section class="skills">
       <div class="content-wrapper">

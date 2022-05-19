@@ -12,13 +12,7 @@
  */
 
 ?>
-			</main><!-- #main -->
-		</div><!-- #primary -->
-	</div><!-- #content -->
-	<?php 
-    global $post;
-    $page_slug = $post->post_name; ?> 
-	<footer id="colophon  footer-section" class="site-footer <?php echo $page_slug; ?>-footer" role="contentinfo">
+			<footer id="footer-section">
       <div class="content-wrapper">
         <h4>Let's Connect</h4>
         <p class="email">sarah.e.beagle@gmail.com</p>
@@ -29,13 +23,21 @@
           <p><a href="https://github.com/Beagles-Designs" target="_blank"><i class="fab fa-github"></i></a></p>
         </div>  
       </div>
-  
-		
-	</footer><!-- #colophon -->
+    </footer>
+  </main>
 
-</div><!-- #page -->
 
-<?php wp_footer(); ?>
 
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+
 </html>

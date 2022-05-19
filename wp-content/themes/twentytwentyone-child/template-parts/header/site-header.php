@@ -12,12 +12,23 @@ $wrapper_classes .= has_custom_logo() ? ' has-logo' : '';
 $wrapper_classes .= ( true === get_theme_mod( 'display_title_and_tagline', true ) ) ? ' has-title-and-tagline' : '';
 $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 ?>
-<?php 
-    global $post;
-    $page_slug = $post->post_name; ?> 
-<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?> <?php echo $page_slug; ?>-header" role="banner">
+<header>
+      <div class="content-wrapper" id="site-header">
+        <a href="<?php echo site_url('') ?>"><h2>B</h2></a>
+        <div class="mobile-menu">
+                <nav class="menu menu-child">
+                  <div class="menu-lines one main-menu-lines"></div>
+                  <div class="menu-lines two main-menu-lines"></div>
+                  <div class="menu-lines three main-menu-lines"></div>
+                  <div id="dropdown-options">
+                    <a href="<?php echo site_url('/home/') ?>">Home</a>
+                    <a href="<?php echo site_url('/about/') ?>">About</a>
+                    <a href="<?php echo site_url('/portfolio/') ?>">Portfolio</a>
+                    <a href="#footer-section">Contact</a>
+                  </div>
+               </nav>  
 
-	<a href="<?php echo site_url('/') ?>"><h1 class="b-logo">B</h1></a>
-	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
+        </div>
+      </div>  
+    </header>
 
-</header><!-- #masthead -->
