@@ -21,7 +21,12 @@
           <p><a href="http://instagram.com/velkofilms" target="_blank"><i class="fab fa-instagram"></i></a></p>
           <p><a href="https://www.linkedin.com/in/sarahbeagle/" target="_blank"><i class="fab fa-linkedin-in"></i></a></p>
           <p><a href="https://github.com/Beagles-Designs" target="_blank"><i class="fab fa-github"></i></a></p>
-        </div>  
+        </div>
+        <div id="copyright-area">
+        <div class="maxwidth copyright-area-small">
+          <p>© Driftwood Creative, INC 2022. All Rights Reserved</p>
+        </div>
+      </div>
       </div>
     </footer>
   </main>

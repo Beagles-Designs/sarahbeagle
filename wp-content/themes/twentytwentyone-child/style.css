@@ -388,7 +388,8 @@ footer {
 
 footer .content-wrapper {
   flex-flow: column;
-  padding-bottom: 50px;
+  position: relative;
+  margin: 0px auto;
 }
 
 
@@ -400,6 +401,29 @@ footer div .contact-icons {
     flex-direction: wrap;
     width: 44%;
     margin: 0 auto;
+}
+
+div#copyright-area {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  position: absolute ;
+  bottom: 5px;
+}
+
+div.copyright-area-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+div#copyright-area p {
+  color: #555555; 
+  font-size: .75em;
+  margin: 0;
+
 }
 
 .email {
@@ -444,6 +468,11 @@ footer div .contact-icons {
   margin: auto;
   max-width: 240px;
   max-height: 207px;
+}
+
+.portrait_picture {
+  width: auto !important;
+  height: auto !important;
 }
 
 .about p {
@@ -740,6 +769,10 @@ footer div .contact-icons {
     font-size: 5vw;
   }
 
+  footer .content-wrapper {
+    padding: 50px 0;
+  }
+
   footer div .contact-icons {
     flex-flow: row;
     width: 60%;
@@ -752,7 +785,12 @@ footer div .contact-icons {
   }
 
   .contact-icons i {
-    font-size: 3.5em;
+    font-size: 3rem;
+  }
+
+  div .copyright-area-small {
+    flex-direction: row;
+    margin-top:  30px;
   }
 
   /*-------------Skills Page adjustments -------------*/
@@ -1045,6 +1083,14 @@ footer div .contact-icons {
   .contact-icons i {
     font-size: 2em;
   } 
+
+  footer .content-wrapper {
+    padding: 75px 0;
+  }
+
+  div#copyright-area {
+    bottom: 20px;
+  }
 
   /*-------------About Page adjustments -------------*/
 

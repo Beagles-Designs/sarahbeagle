@@ -23,6 +23,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<script src="https://kit.fontawesome.com/1129ed59a0.js" crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<?php wp_head(); ?>
 </head>
 
