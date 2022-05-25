@@ -15,10 +15,11 @@
 get_header(); ?>
 <?php get_template_part('template-parts/header/site-header') ?>
 
+
     <section class="portfolio">
       <div class="content-wrapper">
         <div class="portfolio-text">
-          <h1>Portfolio</h1>
+          <h1>Featured Projects</h1>
           <h6>I designed, coded and launched my own website from scratch. Feel free to peak under the covers and look at the code, don't be shy.</h6>
           <p>Click on the Pictures below to see the full websites, or follow the GitHub Icon to see the full collection of my codes.</p>
           <div class="portfolio-container-parent"> 

@@ -179,6 +179,11 @@ h6 {
   font-size: 1.5em;
   text-align: center;
   font-weight: 600;
+  font-family: 'David Libre', serif;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 p {
@@ -464,20 +469,21 @@ div#copyright-area p {
 }
 
 .portrait-container img {
-  width: 100%;
   margin: auto;
-  max-width: 240px;
-  max-height: 207px;
+  width: 75%;
+  height: auto;
 }
 
-.portrait_picture {
-  width: auto !important;
-  height: auto !important;
+#portrait-picture {
+  float: left;
+  margin-right: 5%;
+  max-height: 360px;
+  max-width: 360px;
+  width: 45%;
 }
 
 .about p {
   margin: 30px 0 15px 0;
-  text-indent: 15px;
 }
 
 .interests {
@@ -840,20 +846,6 @@ div#copyright-area p {
     margin-top: 30px;
   }
 
-  .about-top {
-    width: 63%;
-    padding-left: 15px;
-    box-sizing: border-box;
-    padding-right: 15%;
-
-  }
-
-  .about-bottom {
-    width: 100%;
-    margin-top: 0;
-    padding-right: 15%;
-  }
-
   .interests-text p {
     font-size: 2em;
   }
@@ -865,6 +857,10 @@ div#copyright-area p {
   .interests-right {
     justify-content: flex-end;
     margin: 50px auto;
+  }
+
+  .interests-icon {
+    width: 30%;
   }
 
   .interests-right img {
@@ -1109,21 +1105,13 @@ div#copyright-area p {
   }
 
 
-  .about .about-top {
-    margin-top: 30px;
-    width: 50%;
-  }
-
-
-  .about-top, .about-bottom {
-    padding: 0;
-  }
-
-
-
  .about div .about-container-parent {
     justify-content: space-between;
     width: 100%;
+  }
+
+   .interests-icon {
+    width: 30%;
   }
 
   /*-------------Portfolio Page adjustments -------------*/

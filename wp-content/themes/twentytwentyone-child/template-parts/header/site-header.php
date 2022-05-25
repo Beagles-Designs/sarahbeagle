@@ -23,7 +23,7 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
                   <div id="dropdown-options">
                     <a href="<?php echo site_url('/home/') ?>">Home</a>
                     <a href="<?php echo site_url('/about/') ?>">About</a>
-                    <a href="<?php echo site_url('/portfolio/') ?>">Portfolio</a>
+                    <a href="<?php echo site_url('/work/') ?>">Work</a>
                     <a href="#footer-section">Contact</a>
                   </div>
                </nav>  
