@@ -19,7 +19,7 @@ get_header(); ?>
       <div class="content-wrapper">
         <h6>Let me translate Designs, Market Strategies and Branding into a live, functional website for you.</h6>
         <div class="skills-text skills-right">
-            <h1>DESIGN to CODE</h1>
+            <h1>Design to Code</h1>
             <p>No matter the format, I'll take your designs and get them ready to go live online.</p>
         </div>
         <div class="skills-text skills-left">
