@@ -344,6 +344,7 @@ header div .mobile-menu {
 }
 
 #dropdown-options {
+  display: none;
   background-color: #18241A;
   min-width: auto;
   z-index: 1;
@@ -378,6 +379,9 @@ header div .mobile-menu {
 
 /*---- End Button Options ---*/
 
+h6 a {
+  text-decoration: none;
+}
 
 .about, .skills, .portfolio {
   background-color: white;

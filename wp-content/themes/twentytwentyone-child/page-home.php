@@ -34,7 +34,7 @@ get_header(); ?>
               <li>Full Website Design, Code & Launch</li>
             </ol>
         </div>
-        <h6>Curious to see what I've done? Head over to my Portfolio page for examples of my work. Then, let's talk about doing something together.</h6>
+        <h6>Curious to see what I've done? Head over to my <a href="<?php echo site_url('/work/') ?>">Work</a> page for examples of my work. Then, let's talk about doing something together.</h6>
       </div>
     </section>
 
