@@ -339,9 +339,11 @@ header div .mobile-menu {
 
 /*------------------- Menu Button Options -------*/
 
+.hide {
+  display: none;
+}
 
 #dropdown-options {
-  display: none;
   background-color: #18241A;
   min-width: auto;
   z-index: 1;

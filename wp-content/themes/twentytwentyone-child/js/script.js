@@ -7,6 +7,17 @@ const repoData = document.querySelector(".repo-data");
 const backButton = document.querySelector(".view-repos");
 const filterInput = document.querySelector(".filter-repos");
 
+//Grabbing menu lines for mobile grab
+const menu = document.querySelector(".menu");
+const menuChild = document.querySelector(".menu-child");
+const menuLines = document.querySelector(".menu-lines");
+const dropDownMenu = document.querySelector("#dropdown-options");
+
+
+menu.addEventListener("touchstart", function() {
+    menuLines.classList.add("hide");
+    dropDownMenu.classList.remove("hide");
+} )
 
 //github username
 const username = "Beagles-Designs";
