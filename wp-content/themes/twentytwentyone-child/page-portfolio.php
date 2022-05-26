@@ -22,38 +22,45 @@ get_header(); ?>
           <h1>Featured Projects</h1>
           <h6>I designed, coded and launched my own website from scratch. Feel free to peak under the covers and look at the code, don't be shy.</h6>
           <p>Click on the Pictures below to see the full websites, or follow the GitHub Icon to see the full collection of my codes.</p>
-          <div class="portfolio-container-parent"> 
-            <div class="portfolio-container-small port-one">
-              <h3 class="portfolio-titles">Unplugged Retreat</h3>
-              <h5>Business Website</h5>
-              <div class="port-desk-one"> 
-                <a href="../unplugged-retreat/index.html" target="_blank"><img src="../img/unplugged-screen.jpg" alt="Unplugged Website"></a>
-                <div id="unplugged-tasks">  
-                  <p>Implemented responsive, mobile first coding.</p>
-                  <p>Emphasis on CSS3 Flexbox techniques.</p>
-                </div>  
-              </div>
-            </div>
-            <div id="green-portfolio">
-              <div class="portfolio-container-small port-two">
-                <h3 class="portfolio-titles">Rogue Pickings</h3>
-                <h5>Restaurant Website</h5>
-                <div class="port-desk-two"> 
-                  <a href="../rogue/index.html" target="_blank"><img src="../img/rogue-screen.png" alt="Rogue Pickings Website"></a>
-                  <p>Focused on taking Photosop Design to Pixel Perfect HTML Code</p>
-                </div>   
-              </div>
-            </div>  
-            <div class="portfolio-container-small port-three">
-              <h3 class="portfolio-titles">Jubilee Austin</h3>
-              <h5>Portfolio Website</h5>
-              <a href="../jubilee-project-101/index.html" target="_blank"><img src="../img/jubillee-screen.jpg" alt="Jubillee Austin Website"></a>
-            </div>
-            <p><a href="https://github.com/Beagles-Designs" target="_blank"><i class="fab fa-github"></i></a></p>
-            <p id="github-link">Click Here <br>for a Journey to my GitHub Profile</p>  
-          </div>
-        </div>
-      </div>
+          
+          <?php query_posts(array('post_type' => 'projects', 'orderby' => 'publish_date', 'order' => 'ASC')); ?>
+                <?php while ( have_posts() ) : the_post(); 
+                    $name = get_field('project_name');
+                    $website_type = get_field('website_type');
+                    $link = get_field('project_link');
+                    $project_image = get_field('project_image');
+                    $project_scope = get_field('project_scope');
+                    $languages = get_field('languages');
+                    $additional_notes = get_field('additional');
+            ?>
+
+            <div class="portfolio-container-parent">   
+                          
+              <h3 class="portfolio-titles"><a href="<?php echo $link ?>" target="_blank"><?php echo $name ?></a></h3>
+              <h4><?php echo $website_type ?></h4>
+
+              <div class="portfolio-container-small">
+                  <div class="project-image-container"> 
+                    <a href="<?php echo $link ?>" target="_blank"><img src="<?php echo $project_image ?>" alt="<?php echo $name ?>"></a>
+                  </div>  
+                  <div class="project-specifics">
+                    <h6>Contributions</h6>  
+                    <p><?php echo $project_scope ?></p>
+                    <h6>Languages Used</h6>
+                    <p><?php echo $languages ?></p>
+                    <p class="project-notes"><?php echo $additional_notes ?></p>
+                  </div> 
+              </div>  <!-- end portfolio-container-small --> 
+            </div> <!-- End portfolio-container-parent -->
+          
+          <?php endwhile; // end of the loop. ?>
+
+          <div class="github-container">
+            <p id="git-icon-p"><a href="https://beagles-designs.github.io/github-repo-gallery/" target="_blank"><i class="fab fa-github"></i></a></p>
+            <p id="github-link">Click Here <br>for a Journey to my GitHub Profile</p>
+          </div>  
+        </div> <!--- End portfolio-text -->
+      </div> <!-- End Content-wrapper -->
     </section>
 
 
