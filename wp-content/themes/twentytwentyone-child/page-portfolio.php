@@ -57,7 +57,7 @@ get_header(); ?>
 
           <div class="github-container">
             <p id="git-icon-p"><a href="https://beagles-designs.github.io/github-repo-gallery/" target="_blank"><i class="fab fa-github"></i></a></p>
-            <p id="github-link">Click Here <br>for a Journey to my GitHub Profile</p>
+            <p id="github-link">Click Here <br>for my customized Github Repo Gallery.</p>
           </div>  
         </div> <!--- End portfolio-text -->
       </div> <!-- End Content-wrapper -->

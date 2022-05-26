@@ -1138,6 +1138,10 @@ section.repo-data {
     font-size: 1rem;
   }
 
+  #github-link {
+    width: 75%;
+  }
+
  
 
 
