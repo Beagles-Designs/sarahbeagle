@@ -24,6 +24,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<script src="https://kit.fontawesome.com/1129ed59a0.js" crossorigin="anonymous"></script>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js" defer></script>
 	<?php wp_head(); ?>
 </head>
 
