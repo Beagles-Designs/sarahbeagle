@@ -17,7 +17,7 @@ get_header(); ?>
 
     <section class="skills">
       <div class="content-wrapper">
-        <h6>Let me translate Designs, Market Strategies and Branding into a live, functional website for you.</h6>
+        <h6>Let me translate designs, market strategies and branding into a live, functional website for you.</h6>
         <div class="skills-text skills-right">
             <h1>Design to Code</h1>
             <p>No matter the format, I'll take your designs and get them ready to go live online.</p>
@@ -34,7 +34,7 @@ get_header(); ?>
               <li>Full Website Design, Code & Launch</li>
             </ol>
         </div>
-        <h6>Curious to see what I've done? Head over to my <a href="<?php echo site_url('/work/') ?>">Work</a> page for examples of my work. Then, let's talk about doing something together.</h6>
+        <h6>Curious to see what I've done? Head over to my <a href="<?php echo site_url('/work/') ?>">work</a> page for examples of my work. Then, let's talk about doing something together.</h6>
       </div>
     </section>
 
