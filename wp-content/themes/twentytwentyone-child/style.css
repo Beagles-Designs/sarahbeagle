@@ -1006,13 +1006,13 @@ section.repo-data {
     justify-content: flex-end;
   }
 
-  .menu-child:hover #dropdown-options, .menu-child:hover #dropdown-options {
+  /* .menu-child:hover #dropdown-options, .menu-child:hover #dropdown-options {
     border: none;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     width: 100%;
-  }
+  } */
 
 
   #dropdown-options a:hover {
