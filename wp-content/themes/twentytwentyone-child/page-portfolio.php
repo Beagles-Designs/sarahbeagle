@@ -20,8 +20,8 @@ get_header(); ?>
       <div class="content-wrapper">
         <div class="portfolio-text">
           <h1>Featured Projects</h1>
-          <h6>I designed, coded and launched my own website from scratch. Feel free to peak under the covers and look at the code, don't be shy.</h6>
-          <p>Click on the pictures below to see the full websites, or follow the GitHub icon to see the full collection of my codes.</p>
+          <h6>For starters, I designed, coded, and launched this website from scratch. Feel free to peek under the covers and look at the code; don't be shy!</h6>
+          <p>Click on the pictures below to see other websites, or follow the GitHub icon to see the full collection of my codes.</p>
           
           <?php query_posts(array('post_type' => 'projects', 'orderby' => 'publish_date', 'order' => 'ASC')); ?>
                 <?php while ( have_posts() ) : the_post(); 
