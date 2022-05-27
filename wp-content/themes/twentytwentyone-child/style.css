@@ -369,7 +369,7 @@ header div .mobile-menu {
   padding: 10px 5px 0 5px;
   display: block;
 }
-
+/* 
 .menu-child:hover .menu-lines, .menu-child:active .menu-lines {
   display:none;
 }
@@ -385,7 +385,7 @@ header div .mobile-menu {
   display: flex;
   flex-flow: column
   
-}
+} */
 
 
 /*---- End Button Options ---*/
@@ -995,7 +995,7 @@ section.repo-data {
     font-size: 1.25em;
   }
 
-  .menu-child:hover .menu-lines, .menu-child:active .menu-lines {       
+  /* .menu-child:hover .menu-lines, .menu-child:active .menu-lines {       
     display:none;
     width: 100%;
   }
@@ -1004,7 +1004,7 @@ section.repo-data {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-  }
+  } */
 
   /* .menu-child:hover #dropdown-options, .menu-child:hover #dropdown-options {
     border: none;
