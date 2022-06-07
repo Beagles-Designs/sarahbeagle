@@ -17,8 +17,8 @@ get_header(); ?>
             <img src="<?php echo get_stylesheet_directory_uri('template_directory'); ?>/assets/img/labyrinth-grey-01.png" alt="Labyrinth graphic logo" />
       </div> 
       <div class="content-wrapper-cover">  
-        <a href="<?php echo site_url('/home/') ?>">
-              <nav class="menu" aria-lable="Click here to access the main sites">
+        <a href="<?php echo site_url('/home/') ?>" aria-label="Continue to the main site">
+              <nav class="menu">
                 <div class="menu-lines one"></div>
                 <div class="menu-lines two"></div>
                 <div class="menu-lines three"></div>

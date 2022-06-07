@@ -14,9 +14,9 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 ?>
 <header>
       <div class="content-wrapper" id="site-header">
-        <a href="<?php echo site_url('') ?>"><h2>B</h2></a>
+        <a href="<?php echo site_url('') ?>" aria-label="Go back to Landing Page"><h2>B</h2></a>
         <div class="mobile-menu">
-                <nav class="menu menu-child">
+                <nav class="menu menu-child" aria-label="Expand mobile site">
                   <div class="menu-lines one main-menu-lines"></div>
                   <div class="menu-lines two main-menu-lines"></div>
                   <div class="menu-lines three main-menu-lines"></div>
