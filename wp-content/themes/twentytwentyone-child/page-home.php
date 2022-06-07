@@ -23,8 +23,8 @@ get_header(); ?>
             <p>No matter the format, I'll take your designs and get them ready to go live online.</p>
         </div>
         <div class="skills-text skills-left">
-            <h1>HTML5  | CSS3</h1>
-             <p>I specialize in HTML5 and CSS3 to give your website responsive functionality.</p>
+            <h1>React | HTML5  | CSS3</h1>
+             <p>I'll use the best tool to give your website specific, responsive functionality.</p>
         </div>
         <div class ="skills-text skills-right">
             <h1>Services</h1>
@@ -36,6 +36,34 @@ get_header(); ?>
         </div>
         <h6>Curious to see what I've done? Head over to my <a href="<?php echo site_url('/work/') ?>">work</a> page for examples of my work. Then, let's talk about doing something together.</h6>
       </div>
+    </section>
+    <section class="skills" id="skills-section">
+        <div class="content-wrapper">
+            <h1 class="skills-header">Skills</h1>
+            <ul class="skills-list">
+                <li>CSS3</li>
+                <li>FTP & Web Hosting</li>
+                <li>HTML5</li>
+                <li>Git & the Command Line</li>
+                <li>Version Control</li>
+                <li>Responsive Design</li>
+                <li>API's</li>
+                <li>Vanilla Javascript</li>
+                <li>ES6</li>
+                <li>JSX</li>
+                <li>React</li>
+
+            </ul>
+            <h1 class="skills-header">Tools</h1>
+            <ul class="skills-list">
+                <li>GitHub</li>
+                <li>FTP Clients</li>
+                <li>Adobe Illustrator & XD</li>
+                <li>Text Editors</li>
+                <li>Visual Studio Code</li>
+                <li>CodeSandbox</li>
+            </ul>
+        </div>
     </section>
 
 
