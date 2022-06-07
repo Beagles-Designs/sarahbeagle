@@ -18,7 +18,7 @@ get_header(); ?>
       </div> 
       <div class="content-wrapper-cover">  
         <a href="<?php echo site_url('/home/') ?>">
-              <nav class="menu">
+              <nav class="menu" aria-lable="Click here to access the main sites">
                 <div class="menu-lines one"></div>
                 <div class="menu-lines two"></div>
                 <div class="menu-lines three"></div>

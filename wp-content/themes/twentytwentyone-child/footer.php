@@ -17,10 +17,10 @@
         <h4>Let's Connect</h4>
         <p class="email">sarah.e.beagle@gmail.com</p>
         <div class="contact-icons">
-          <p><a href="mailto:sarah.e.beagle@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></p>
-          <p><a href="http://instagram.com/velkofilms" target="_blank"><i class="fab fa-instagram"></i></a></p>
-          <p><a href="https://www.linkedin.com/in/sarahbeagle/" target="_blank"><i class="fab fa-linkedin-in"></i></a></p>
-          <p><a href="https://github.com/Beagles-Designs" target="_blank"><i class="fab fa-github"></i></a></p>
+          <p><a href="mailto:sarah.e.beagle@gmail.com" target="_blank" aria-label="Email Beagle's Design's now"><i class="far fa-envelope"></i></a></p>
+          <p><a href="http://instagram.com/velkofilms" target="_blank" aria-label="Go to Beagle's Instagram page"><i class="fab fa-instagram"></i></a></p>
+          <p><a href="https://www.linkedin.com/in/sarahbeagle/" target="_blank" aria-label="Visit Beagle's Linkedin Profile"><i class="fab fa-linkedin-in"></i></a></p>
+          <p><a href="https://github.com/Beagles-Designs" target="_blank" aria-label="Visit Beagle's GitHub Page"><i class="fab fa-github"></i></a></p>
         </div>
         <div id="copyright-area">
         <div class="maxwidth copyright-area-small">
