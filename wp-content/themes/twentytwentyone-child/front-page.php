@@ -14,7 +14,7 @@ get_header(); ?>
     <section class="cover">
     <?php while ( have_posts() ) : the_post(); ?>
       <div class="background-img">
-            <img src="<?php echo get_stylesheet_directory_uri('template_directory'); ?>/assets/img/labyrinth-grey-01.png" />
+            <img src="<?php echo get_stylesheet_directory_uri('template_directory'); ?>/assets/img/labyrinth-grey-01.png" alt="Labyrinth graphic logo" />
       </div> 
       <div class="content-wrapper-cover">  
         <a href="<?php echo site_url('/home/') ?>">
