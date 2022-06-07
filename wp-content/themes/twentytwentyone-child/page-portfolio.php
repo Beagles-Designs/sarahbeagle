@@ -56,7 +56,7 @@ get_header(); ?>
           <?php endwhile; // end of the loop. ?>
 
           <div class="github-container">
-            <p id="git-icon-p"><a href="https://beagles-designs.github.io/github-repo-gallery/" target="_blank"><i class="fab fa-github"></i></a></p>
+            <p id="git-icon-p"><a href="https://beagles-designs.github.io/github-repo-gallery/" target="_blank" aria-label="Github Profile Link"><i class="fab fa-github"></i></a></p>
             <p id="github-link">Click Here <br>for my customized Github repo gallery.</p>
           </div>  
         </div> <!--- End portfolio-text -->
