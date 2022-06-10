@@ -450,7 +450,6 @@ footer div .contact-icons {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    flex-direction: wrap;
     width: 44%;
     margin: 0 auto;
 }
@@ -952,7 +951,7 @@ section.repo-data {
   }
 
   .cover-parent {
-    height: 60%%;
+    height: 60%;
     width: 80%;
   }
 
@@ -1227,7 +1226,7 @@ section.repo-data {
     opacity: 50%;
   }
 
-}
+
 
 
 /*----------------------- Media Queries - Desktop ----------------------------------------*/
